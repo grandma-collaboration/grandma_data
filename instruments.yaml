@@ -1,0 +1,188 @@
+- band: optical
+  name: CFH12k
+  telescope_id: =P48
+  type: imager
+  filters:
+  - ztfr
+  - ztfg
+
+- band: optical
+  name: SEDM
+  telescope_id: =P60
+  type: imaging spectrograph
+  api_classname: SEDMAPI
+  filters:
+  - 'sdssu'
+  - 'sdssg'
+  - 'sdssr'
+  - 'sdssi'
+
+- band: optical
+  name: pl4240-ccd-camera-back-illum-63-5mm-shutter-grade-1
+  telescope_id: =Abastumani-T70
+  type: imager
+  filters:
+  - 'standard::b'
+  - 'standard::v'
+  - 'standard::r'
+  - 'standard::i'
+
+- band: optical
+  name: CCD Apogee Alta KAF-16801E
+  telescope_id: =Abastumani-T48
+  type: imager
+  filters:
+  - 'standard::b'
+  - 'standard::v'
+  - 'standard::r'
+  - 'standard::i'
+  - 'standard::u'
+
+- band: optical
+  name: CCD Apogee Alta KAF-16801E
+  telescope_id: =Abastumani-T48
+  type: imager
+  filters:
+  - 'standard::b'
+  - 'standard::v'
+  - 'standard::r'
+  - 'standard::i'
+  - 'standard::u'
+
+# ADD VIRT INSTRUMENT(S) -> MISSING DATA
+
+- band: ir
+  name: MegaCam
+  telescope_id: =CFHT
+  type: imager
+  filters:
+  - '2massj'
+  - '2massh'
+  - '2massks'
+
+- band: ir
+  name: WIRCAM
+  telescope_id: =CFHT
+  type: imager
+  filters:
+  - '2massj'
+  - '2massh'
+  - '2massks'
+
+- band: optical
+  name: CCD ANDOR IKON L936 BEX2-DD
+  telescope_id: =TCA
+  type: imager
+  filters:
+  - 'sdssg'
+  - 'sdssr'
+  - 'sdssi'
+  - 'sdssz'
+  - 'kepler' # clear ?
+
+- band: optical
+  name: CCD ANDOR IKON DW 436 N-BV
+  telescope_id: =TCH
+  type: imager
+  filters:
+  - 'sdssg'
+  - 'sdssr'
+  - 'sdssi'
+  - 'sdssz'
+  - 'kepler' # clear ?
+
+- band: optical
+  name: CCD FLI Proline KAF-16803
+  telescope_id: =TRE
+  type: imager
+  filters:
+  # NOT LISTED ON grandma.ijclab.in2p3.fr
+  # TO CHANGE
+  - 'sdssg'
+  - 'sdssr'
+  - 'sdssi'
+  - 'sdssz'
+  - 'kepler' # clear ?
+
+- band: optical
+  name: BFOSC
+  telescope_id: =Xinglong-2.16m
+  type: imaging spectrograph
+  filters:
+  # NOT LISTED ON grandma.ijclab.in2p3.fr
+  # TO CHANGE
+  - 'sdssg'
+
+- band: optical
+  name: OMR Low Resolution Spectrograph
+  telescope_id: =Xinglong-2.16m
+  type: spectrograph
+
+- band: optical
+  name: HRS
+  telescope_id: =Xinglong-2.16m
+  type: spectrograph
+
+# ADD ZADKO INSTRUMENT(S) -> MISSING DATA
+
+# ADD SOAR INSTRUMENT(S) -> MISSING DATA
+
+# ADD Zeiss-2000 and Zeiss-600 INSTRUMENT(S) (from Terskol Observatory) -> MISSING DATA
+
+# ADD Carl Zeiss 600 INSTRUMENT(S) (from N.Tusi Shamakhy Astrophysical Observatory) -> MISSING DATA
+
+- band: optical
+  name: Spectrograph Canberra
+  telescope_id: =Carl Zeiss 2000
+  type: spectrograph
+
+- band: optical
+  name: Spectrograph UAGS
+  telescope_id: =Carl Zeiss 2000
+  type: spectrograph
+
+- band: optical
+  name: YFOSC
+  telescope_id: =GMG 2.4-m
+  type: imaging spectrograph
+  filters:
+  # NOT LISTED ON grandma.ijclab.in2p3.fr
+  # TO CHANGE
+  - 'sdssg'
+
+# ADD Perkin-Elmer, Boller & Chivens and Zeiss Jena INSTRUMENT(S) -> MISSING DATA
+
+# ADD C2PU Omicron INSTRUMENT(S) -> MISSING DATA
+
+# ADD Les Makes-T60 INSTRUMENT(S) -> MISSING DATA
+
+# ADD 2.2m CAHA INSTRUMENT(S) -> MISSING DATA
+
+# ADD Midi-T1M INSTRUMENT(S) -> MISSING DATA
+
+# ADD Gran Telescopio Canarias INSTRUMENT(S) -> MISSING DATA
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

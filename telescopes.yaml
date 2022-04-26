@@ -1,0 +1,225 @@
+- diameter: 1.2
+  elevation: 1870.0
+  lat: 33.3633675
+  lon: -116.8361345
+  name: Palomar 1.2m Oschin
+  nickname: P48
+  skycam_link: http://bianca.palomar.caltech.edu/images/allsky/AllSkyCurrentImage.JPG
+  =id: P48
+
+- diameter: 1.5
+  elevation: 1870.0
+  lat: 33.3633675
+  lon: -116.8361345
+  name: Palomar 1.5m
+  nickname: P60
+  skycam_link: http://bianca.palomar.caltech.edu/images/allsky/AllSkyCurrentImage.JPG
+  =id: P60
+  robotic: true
+
+- diameter: 0.7
+  name: Abastumani Meniscus
+  nickname: Abastumani-T70
+  skycam_link: null
+  =id: Abastumani-T70
+  lat: 41.754167
+  lon: 42.819444
+  elevation: 1610
+
+- diameter: 0.48
+  name: Abastumani Cassegrain
+  nickname: Abastumani-T48
+  skycam_link: null
+  =id: Abastumani-T48
+  lat: 41.754167
+  lon: 42.819444
+  elevation: 1605
+
+- diameter: 0.5
+  name: VIRT
+  nickname: VIRT
+  skycam_link: null
+  =id: VIRT
+  lat: 18.5
+  lon: 65
+  elevation: 420
+
+- diameter: 3.58
+  name: Canada-France-Hawaii Telescope
+  nickname: CFHT
+  skycam_link: null
+  =id: CFHT
+  lat: 20.0195
+  lon: 155.6720
+  elevation: 4204
+
+- diameter: 0.25
+  name: TAROT Calern
+  nickname: TCA
+  skycam_link: null
+  =id: TCA
+  lat: 43.75203
+  lon: 6.92353
+  elevation: 1320
+
+- diameter: 0.25
+  name: TAROT La Silla
+  nickname: TCH
+  skycam_link: null
+  =id: TCH
+  lat: -29.25992
+  lon: -70.73260
+  elevation: 2398
+
+- diameter: 0.18
+  name: TAROT Reunion
+  nickname: TRE
+  skycam_link: null
+  =id: TRE
+  lat: -21.19882
+  lon: 55.41022
+  elevation: 991
+
+- diameter: 2.16
+  name: Xinglong-2.16m
+  nickname: Xinglong-2.16m
+  skycam_link: null
+  =id: Xinglong-2.16m
+  lat: 40:23.6
+  lon: 242:25.5
+  elevation: 950
+
+- diameter: 1
+  name: Zadko Telescope
+  nickname: ZADKO
+  skycam_link: null
+  =id: ZADKO
+  lat: -31.3560
+  lon: 115.7131
+  elevation: 50
+
+- diameter: 4.1
+  name: Southern Astrophysical Research Telescope
+  nickname: SOAR
+  skycam_link: null
+  =id: SOAR
+  lat: -30.2379
+  lon: -70.7337
+  elevation: 2738
+
+- diameter: 2
+  name: Zeiss-2000
+  nickname: Zeiss-2000
+  skycam_link: null
+  =id: Zeiss-2000
+  lat: 43.2742
+  lon: 42.5017
+  elevation: 3127
+
+- diameter: 0.6
+  name: Zeiss-600
+  nickname: Zeiss-600
+  skycam_link: null
+  =id: Zeiss-600
+  lat: 43.2742
+  lon: 42.5017
+  elevation: 3127
+
+- diameter: 0.6
+  name: Carl Zeiss 600
+  nickname: Shao-T60
+  skycam_link: null
+  =id: Carl Zeiss 600
+  lat: 40.76999692
+  lon: 48.583997664
+  elevation: 1500
+
+- diameter: 2
+  name: Carl Zeiss 2000
+  nickname: Shao-2m
+  skycam_link: null
+  =id: Carl Zeiss 2000
+  lat: 40.76999692
+  lon: 48.583997664
+  elevation: 1500
+
+- diameter: 2.4
+  name: GMG 2.4-m
+  nickname: GMG 2.4-m
+  skycam_link: null
+  =id: GMG 2.4-m
+  lat: 26.708889
+  lon: 100.030833
+  elevation: 3193
+
+- diameter: 1.6
+  name: Perkin-Elmer
+  nickname: Perkin-Elmer
+  skycam_link: null
+  =id: Perkin-Elmer
+  lat: -22.5349
+  lon: -45.5832
+  elevation: 1864
+
+- diameter: 0.6
+  name: Boller & Chivens
+  nickname: Boller & Chivens
+  skycam_link: null
+  =id: Boller & Chivens
+  lat: -22.5349
+  lon: -45.5832
+  elevation: 1864
+
+- diameter: 0.6
+  name: Zeiss Jena
+  nickname: Zeiss Jena
+  skycam_link: null
+  =id: Zeiss Jena
+  lat: -22.5349
+  lon: -45.5832
+  elevation: 1864
+
+- diameter: 1
+  name: C2PU Omicron
+  nickname: C2PU Omicron
+  skycam_link: null
+  =id: C2PU Omicron
+  lat: 43.753702
+  lon: 6.922978
+  elevation: 1200
+
+- diameter: 0.6
+  name: Les Makes-T60
+  nickname: Makes-T60
+  skycam_link: null
+  =id: Les Makes-T60
+  lat: -21.1997
+  lon: 55.4090
+  elevation: 1000
+
+- diameter: 2.2
+  name: 2.2m CAHA
+  nickname: 2.2m CAHA
+  skycam_link: null
+  =id: 2.2m CAHA
+  lat: 37.2208
+  lon: -2.5468
+  elevation: 2168
+
+- diameter: 1
+  name: Midi-T1M
+  nickname: T1M
+  skycam_link: null
+  =id: Midi-T1M
+  lat: 42.9369
+  lon: 0.1411
+  elevation: 2877
+
+- diameter: 10
+  name: Gran Telescopio Canarias
+  nickname: GTC
+  skycam_link: null
+  =id: Gran Telescopio Canarias
+  lat: 28.75667
+  lon: -17.89194
+  elevation: 2267

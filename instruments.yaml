@@ -77,8 +77,7 @@
   - 'sdssg'
   - 'sdssr'
   - 'sdssi'
-  - 'sdssz'
-  - 'kepler' # clear ?
+  - 'ps1::open'
 
 - band: optical
   name: CCD ANDOR IKON DW 436 N-BV
@@ -88,25 +87,27 @@
   - 'sdssg'
   - 'sdssr'
   - 'sdssi'
-  - 'sdssz'
-  - 'kepler' # clear ?
+  - 'ps1::open'
 
 - band: optical
   name: CCD FLI Proline KAF-16803
   telescope_id: =TRE
   type: imager
   filters:
-  # NOT LISTED ON grandma.ijclab.in2p3.fr
-  # TO CHANGE
-  - 'sdssg'
-  - 'sdssr'
-  - 'sdssi'
-  - 'sdssz'
-  - 'kepler' # clear ?
+  - 'ps1::open'
 
 - band: optical
   name: BFOSC
   telescope_id: =Xinglong-2.16m
+  type: imaging spectrograph
+  filters:
+  # NOT LISTED ON grandma.ijclab.in2p3.fr
+  # TO CHANGE
+  - 'sdssg'
+
+- band: optical
+  name: Xinglong-TNT_generic_instrument
+  telescope_id: =Xinglong-TNT
   type: imaging spectrograph
   filters:
   # NOT LISTED ON grandma.ijclab.in2p3.fr
@@ -162,8 +163,65 @@
 
 # ADD Gran Telescopio Canarias INSTRUMENT(S) -> MISSING DATA
 
+- band: optical
+  name: ProLine PL16803 Monochrome CCD Camera
+  telescope_id: =TRT-SBO
+  type: imager
+  filters:
+  - 'bessellb'
+  - 'bessellv'
+  - 'bessellr'
+  - 'besselli'
 
+- band: optical
+  name: ProLine PL16803 Monochrome CCD Camera
+  telescope_id: =TRT-SRO
+  type: imager
+  filters:
+  - 'bessellb'
+  - 'bessellv'
+  - 'bessellr'
+  - 'besselli'
 
+- band: optical
+  name: ProLine PL4240 Grade 1 CCD Camera
+  telescope_id: =TRT-SRO
+  type: imager
+  filters:
+  - 'bessellb'
+  - 'bessellv'
+  - 'bessellr'
+  - 'bessellbi'
+    # no filters listed on website. see here: https://trt.narit.or.th/obsinfo/sro
+
+- band: optical
+  name: FRAM-Auger_generic_instrument
+  telescope_id: =FRAM-Auger
+  type: imager
+  filters:
+  - 'bessellb'
+  - 'bessellv'
+  - 'bessellr'
+
+- band: optical
+  name: FRAM-CTA-N_generic_instrument
+  telescope_id: =FRAM-CTA-N
+  type: imager
+  filters:
+  - 'bessellb'
+  - 'bessellv'
+  - 'bessellr'
+  - 'sdssz'
+
+# TO SPECIFY (lacks details and info)
+
+- band: optical
+  name: SNOVA_generic_instrument
+  telescope_id: =SNOVA
+  type: imager
+  filters:
+  - 'besselux'
+  - 'bessellb'
 
 
 

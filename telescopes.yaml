@@ -85,8 +85,17 @@
   nickname: Xinglong-2.16m
   skycam_link: null
   =id: Xinglong-2.16m
-  lat: 40:23.6
-  lon: 242:25.5
+  lat: 40:23.6 #to change
+  lon: 242:25.5 #to change
+  elevation: 950
+
+- diameter: 0.8
+  name: Xinglong-TNT
+  nickname: Xinglong-TNT
+  skycam_link: null
+  =id: Xinglong-TNT
+  lat: 40:23.6 #to change
+  lon: 242:25.5 #to change
   elevation: 950
 
 - diameter: 1
@@ -223,3 +232,50 @@
   lat: 28.75667
   lon: -17.89194
   elevation: 2267
+
+- diameter: 0.7
+  name: Thai Robotic Telescope - Springbrook Observatory
+  nickname: TRT-SBO
+  skycam_link: null
+  =id: TRT-SBO
+  lat: -31.28198
+  lon: 149.082341
+  elevation: 601
+
+- diameter: 0.7
+  name: Thai Robotic Telescope - Sierra Remote Observatory
+  nickname: TRT-SRO
+  skycam_link: null
+  =id: TRT-SRO
+  lat: 37.070278
+  lon: -119.413056
+  elevation: 2267
+
+- diameter: 0.3
+  name: F/(Ph)otometric Robotic Atmospheric Monitor - Auger
+  nickname: FRAM-Auger
+  skycam_link: null
+  =id: FRAM-Auger
+  lat: -35.48084
+  lon: -69.57052
+  elevation: 1400
+
+- diameter: 0.25
+  name: F/(Ph)otometric Robotic Atmospheric Monitor - CTA-N
+  nickname: FRAM-CTA-N
+  skycam_link: null
+  =id: FRAM-CTA-N
+  lat: 28.763611
+  lon: -17.894722
+  elevation: 2396
+
+# TO SPECIFY (lacks details and info)
+
+- diameter: 0
+  name: SNOVA
+  nickname: SNOVA
+  skycam_link: null
+  =id: SNOVA
+  lat: 0
+  lon: 0
+  elevation: 0

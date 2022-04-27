@@ -1,20 +1,20 @@
 - diameter: 1.2
-  elevation: 1870.0
-  lat: 33.3633675
-  lon: -116.8361345
   name: Palomar 1.2m Oschin
   nickname: P48
   skycam_link: http://bianca.palomar.caltech.edu/images/allsky/AllSkyCurrentImage.JPG
   =id: P48
-
-- diameter: 1.5
-  elevation: 1870.0
   lat: 33.3633675
   lon: -116.8361345
+  elevation: 1870.0
+
+- diameter: 1.5
   name: Palomar 1.5m
   nickname: P60
   skycam_link: http://bianca.palomar.caltech.edu/images/allsky/AllSkyCurrentImage.JPG
   =id: P60
+  lat: 33.3633675
+  lon: -116.8361345
+  elevation: 1870.0
   robotic: true
 
 - diameter: 0.7
@@ -61,6 +61,7 @@
   lat: 43.75203
   lon: 6.92353
   elevation: 1320
+  robotic: true
 
 - diameter: 0.25
   name: TAROT La Silla
@@ -70,6 +71,7 @@
   lat: -29.25992
   lon: -70.73260
   elevation: 2398
+  robotic: true
 
 - diameter: 0.18
   name: TAROT Reunion
@@ -79,6 +81,7 @@
   lat: -21.19882
   lon: 55.41022
   elevation: 991
+  robotic: true
 
 - diameter: 2.16
   name: Xinglong-2.16m

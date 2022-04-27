@@ -262,6 +262,7 @@
   lat: -35.48084
   lon: -69.57052
   elevation: 1400
+  robotic: true
 
 - diameter: 0.25
   name: F/(Ph)otometric Robotic Atmospheric Monitor - CTA-N
@@ -271,6 +272,7 @@
   lat: 28.763611
   lon: -17.894722
   elevation: 2396
+  robotic: true
 
 # TO SPECIFY (lacks details and info)
 

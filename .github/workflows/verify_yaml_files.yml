@@ -1,4 +1,4 @@
-name: skyportal-fink-client
+name: Verify YAML files
 
 on:
   pull_request:

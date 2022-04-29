@@ -157,11 +157,43 @@
 
 # ADD Les Makes-T60 INSTRUMENT(S) -> MISSING DATA
 
-# ADD 2.2m CAHA INSTRUMENT(S) -> MISSING DATA
+- band: optical
+  name: CAFOS
+  telescope_id: =CAHA
+  type: imaging spectrograph
+  filters:
+  - 'sdssg'
+  - 'sdssr'
+  - 'sdssi'
+  - 'sdssz'
+  - 'bessellb'
+  - 'bessellv'
+  - 'bessellr'
+  - 'besselli'
 
 # ADD Midi-T1M INSTRUMENT(S) -> MISSING DATA
 
-# ADD Gran Telescopio Canarias INSTRUMENT(S) -> MISSING DATA
+- band: optical
+  name: OSIRIS
+  telescope_id: =GTC
+  type: imaging spectrograph
+  filters:
+  - 'sdssu'
+  - 'sdssg'
+  - 'sdssr'
+  - 'sdssi'
+  - 'sdssz'
+
+- band: optical
+  name: EMIR
+  telescope_id: =GTC
+  type: imaging spectrograph
+  filters:
+  - 'megacampsf::y'
+  - '2massj'
+  - '2massh'
+  - '2massks'
+
 
 - band: optical
   name: ProLine PL16803 Monochrome CCD Camera

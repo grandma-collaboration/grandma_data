@@ -88,8 +88,8 @@
   nickname: Xinglong-2.16m
   skycam_link: null
   =id: Xinglong-2.16m
-  lat: 40:23.6 #to change
-  lon: 242:25.5 #to change
+  lat: 40.394167
+  lon: 117.575
   elevation: 950
 
 - diameter: 0.8
@@ -97,8 +97,8 @@
   nickname: Xinglong-TNT
   skycam_link: null
   =id: Xinglong-TNT
-  lat: 40:23.6 #to change
-  lon: 242:25.5 #to change
+  lat: 40.394167
+  lon: 117.575
   elevation: 950
 
 - diameter: 1
@@ -211,9 +211,9 @@
 
 - diameter: 2.2
   name: 2.2m CAHA
-  nickname: 2.2m CAHA
+  nickname: CAHA
   skycam_link: null
-  =id: 2.2m CAHA
+  =id: CAHA
   lat: 37.2208
   lon: -2.5468
   elevation: 2168
@@ -231,7 +231,7 @@
   name: Gran Telescopio Canarias
   nickname: GTC
   skycam_link: null
-  =id: Gran Telescopio Canarias
+  =id: GTC
   lat: 28.75667
   lon: -17.89194
   elevation: 2267

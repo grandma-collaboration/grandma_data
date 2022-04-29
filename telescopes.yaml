@@ -101,7 +101,7 @@
   lon: 117.575
   elevation: 950
 
-- diameter: 1
+- diameter: 1.0
   name: Zadko Telescope
   nickname: ZADKO
   skycam_link: null
@@ -119,7 +119,7 @@
   lon: -70.7337
   elevation: 2738
 
-- diameter: 2
+- diameter: 2.0
   name: Zeiss-2000
   nickname: Zeiss-2000
   skycam_link: null
@@ -146,7 +146,7 @@
   lon: 48.583997664
   elevation: 1500
 
-- diameter: 2
+- diameter: 2.0
   name: Carl Zeiss 2000
   nickname: Shao-2m
   skycam_link: null
@@ -191,7 +191,7 @@
   lon: -45.5832
   elevation: 1864
 
-- diameter: 1
+- diameter: 1.0
   name: C2PU Omicron
   nickname: C2PU Omicron
   skycam_link: null
@@ -218,7 +218,7 @@
   lon: -2.5468
   elevation: 2168
 
-- diameter: 1
+- diameter: 1.0
   name: Midi-T1M
   nickname: T1M
   skycam_link: null
@@ -227,7 +227,7 @@
   lon: 0.1411
   elevation: 2877
 
-- diameter: 10
+- diameter: 10.0
   name: Gran Telescopio Canarias
   nickname: GTC
   skycam_link: null
@@ -276,7 +276,7 @@
 
 # TO SPECIFY (lacks details and info)
 
-- diameter: 0
+- diameter: 1.0
   name: SNOVA
   nickname: SNOVA
   skycam_link: null

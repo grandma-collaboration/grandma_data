@@ -20,7 +20,6 @@
 - diameter: 0.7
   name: Abastumani Meniscus
   nickname: Abastumani-T70
-  skycam_link: null
   =id: Abastumani-T70
   lat: 41.754167
   lon: 42.819444
@@ -29,7 +28,6 @@
 - diameter: 0.48
   name: Abastumani Cassegrain
   nickname: Abastumani-T48
-  skycam_link: null
   =id: Abastumani-T48
   lat: 41.754167
   lon: 42.819444
@@ -38,7 +36,6 @@
 - diameter: 0.5
   name: VIRT
   nickname: VIRT
-  skycam_link: null
   =id: VIRT
   lat: 18.5
   lon: 65
@@ -47,7 +44,6 @@
 - diameter: 3.58
   name: Canada-France-Hawaii Telescope
   nickname: CFHT
-  skycam_link: null
   =id: CFHT
   lat: 20.0195
   lon: 155.6720
@@ -56,7 +52,6 @@
 - diameter: 0.25
   name: TAROT Calern
   nickname: TCA
-  skycam_link: null
   =id: TCA
   lat: 43.75203
   lon: 6.92353
@@ -66,7 +61,6 @@
 - diameter: 0.25
   name: TAROT La Silla
   nickname: TCH
-  skycam_link: null
   =id: TCH
   lat: -29.25992
   lon: -70.73260
@@ -76,7 +70,6 @@
 - diameter: 0.18
   name: TAROT Reunion
   nickname: TRE
-  skycam_link: null
   =id: TRE
   lat: -21.19882
   lon: 55.41022
@@ -86,7 +79,6 @@
 - diameter: 2.16
   name: Xinglong-2.16m
   nickname: Xinglong-2.16m
-  skycam_link: null
   =id: Xinglong-2.16m
   lat: 40.394167
   lon: 117.575
@@ -95,7 +87,6 @@
 - diameter: 0.8
   name: Xinglong-TNT
   nickname: Xinglong-TNT
-  skycam_link: null
   =id: Xinglong-TNT
   lat: 40.394167
   lon: 117.575
@@ -104,7 +95,6 @@
 - diameter: 1.0
   name: Zadko Telescope
   nickname: ZADKO
-  skycam_link: null
   =id: ZADKO
   lat: -31.3560
   lon: 115.7131
@@ -113,7 +103,6 @@
 - diameter: 4.1
   name: Southern Astrophysical Research Telescope
   nickname: SOAR
-  skycam_link: null
   =id: SOAR
   lat: -30.2379
   lon: -70.7337
@@ -122,7 +111,6 @@
 - diameter: 2.0
   name: Zeiss-2000
   nickname: Zeiss-2000
-  skycam_link: null
   =id: Zeiss-2000
   lat: 43.2742
   lon: 42.5017
@@ -131,7 +119,6 @@
 - diameter: 0.6
   name: Zeiss-600
   nickname: Zeiss-600
-  skycam_link: null
   =id: Zeiss-600
   lat: 43.2742
   lon: 42.5017
@@ -140,7 +127,6 @@
 - diameter: 0.6
   name: Carl Zeiss 600
   nickname: Shao-T60
-  skycam_link: null
   =id: Carl Zeiss 600
   lat: 40.76999692
   lon: 48.583997664
@@ -149,7 +135,6 @@
 - diameter: 2.0
   name: Carl Zeiss 2000
   nickname: Shao-2m
-  skycam_link: null
   =id: Carl Zeiss 2000
   lat: 40.76999692
   lon: 48.583997664
@@ -158,7 +143,6 @@
 - diameter: 2.4
   name: GMG 2.4-m
   nickname: GMG 2.4-m
-  skycam_link: null
   =id: GMG 2.4-m
   lat: 26.708889
   lon: 100.030833
@@ -167,7 +151,6 @@
 - diameter: 1.6
   name: Perkin-Elmer
   nickname: Perkin-Elmer
-  skycam_link: null
   =id: Perkin-Elmer
   lat: -22.5349
   lon: -45.5832
@@ -176,7 +159,6 @@
 - diameter: 0.6
   name: Boller & Chivens
   nickname: Boller & Chivens
-  skycam_link: null
   =id: Boller & Chivens
   lat: -22.5349
   lon: -45.5832
@@ -185,7 +167,6 @@
 - diameter: 0.6
   name: Zeiss Jena
   nickname: Zeiss Jena
-  skycam_link: null
   =id: Zeiss Jena
   lat: -22.5349
   lon: -45.5832
@@ -194,7 +175,6 @@
 - diameter: 1.0
   name: C2PU Omicron
   nickname: C2PU Omicron
-  skycam_link: null
   =id: C2PU Omicron
   lat: 43.753702
   lon: 6.922978
@@ -203,7 +183,6 @@
 - diameter: 0.6
   name: Les Makes-T60
   nickname: Makes-T60
-  skycam_link: null
   =id: Les Makes-T60
   lat: -21.1997
   lon: 55.4090
@@ -212,7 +191,6 @@
 - diameter: 2.2
   name: 2.2m CAHA
   nickname: CAHA
-  skycam_link: null
   =id: CAHA
   lat: 37.2208
   lon: -2.5468
@@ -221,7 +199,6 @@
 - diameter: 1.0
   name: Midi-T1M
   nickname: T1M
-  skycam_link: null
   =id: Midi-T1M
   lat: 42.9369
   lon: 0.1411
@@ -230,7 +207,6 @@
 - diameter: 10.0
   name: Gran Telescopio Canarias
   nickname: GTC
-  skycam_link: null
   =id: GTC
   lat: 28.75667
   lon: -17.89194
@@ -239,7 +215,6 @@
 - diameter: 0.7
   name: Thai Robotic Telescope - Springbrook Observatory
   nickname: TRT-SBO
-  skycam_link: null
   =id: TRT-SBO
   lat: -31.28198
   lon: 149.082341
@@ -248,7 +223,6 @@
 - diameter: 0.7
   name: Thai Robotic Telescope - Sierra Remote Observatory
   nickname: TRT-SRO
-  skycam_link: null
   =id: TRT-SRO
   lat: 37.070278
   lon: -119.413056
@@ -257,7 +231,6 @@
 - diameter: 0.3
   name: F/(Ph)otometric Robotic Atmospheric Monitor - Auger
   nickname: FRAM-Auger
-  skycam_link: null
   =id: FRAM-Auger
   lat: -35.48084
   lon: -69.57052
@@ -267,7 +240,6 @@
 - diameter: 0.25
   name: F/(Ph)otometric Robotic Atmospheric Monitor - CTA-N
   nickname: FRAM-CTA-N
-  skycam_link: null
   =id: FRAM-CTA-N
   lat: 28.763611
   lon: -17.894722
@@ -279,7 +251,6 @@
 - diameter: 1.0
   name: SNOVA
   nickname: SNOVA
-  skycam_link: null
   =id: SNOVA
   lat: 0
   lon: 0

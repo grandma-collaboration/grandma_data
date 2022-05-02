@@ -223,7 +223,7 @@
   - 'bessellb'
   - 'bessellv'
   - 'bessellr'
-  - 'bessellbi'
+  - 'bessellb'
     # no filters listed on website. see here: https://trt.narit.or.th/obsinfo/sro
 
 - band: optical
@@ -252,5 +252,5 @@
   telescope_id: =SNOVA
   type: imager
   filters:
-  - 'besselux'
+  - 'bessellux'
   - 'bessellb'

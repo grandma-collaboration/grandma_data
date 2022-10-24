@@ -5,6 +5,7 @@
   elevation: 4204.0
   diameter: 3.58
   robotic: false
+  fixed_location: true
   skycam_link: null
   weather_link: null
   =id: CFHT
@@ -16,6 +17,7 @@
   elevation: 1320.0
   diameter: 0.25
   robotic: true
+  fixed_location: true
   skycam_link: null
   weather_link: null
   =id: TCA
@@ -27,6 +29,7 @@
   elevation: 2398.0
   diameter: 0.25
   robotic: true
+  fixed_location: true
   skycam_link: null
   weather_link: null
   =id: TCH
@@ -38,6 +41,7 @@
   elevation: 991.0
   diameter: 0.18
   robotic: true
+  fixed_location: true
   skycam_link: null
   weather_link: null
   =id: TRE
@@ -49,6 +53,7 @@
   elevation: 950.0
   diameter: 0.8
   robotic: false
+  fixed_location: true
   skycam_link: null
   weather_link: null
   =id: Xinglong-TNT
@@ -60,6 +65,7 @@
   elevation: 50.0
   diameter: 1.0
   robotic: false
+  fixed_location: true
   skycam_link: null
   weather_link: null
   =id: ZADKO
@@ -71,6 +77,7 @@
   elevation: 3127.0
   diameter: 2.0
   robotic: false
+  fixed_location: true
   skycam_link: null
   weather_link: null
   =id: Zeiss-2000
@@ -82,6 +89,7 @@
   elevation: 1500.0
   diameter: 0.6
   robotic: false
+  fixed_location: true
   skycam_link: null
   weather_link: null
   =id: Shao-T60
@@ -93,6 +101,7 @@
   elevation: 1500.0
   diameter: 2.0
   robotic: false
+  fixed_location: true
   skycam_link: null
   weather_link: null
   =id: Shao-2m
@@ -104,6 +113,7 @@
   elevation: 1864.0
   diameter: 1.6
   robotic: false
+  fixed_location: true
   skycam_link: null
   weather_link: null
   =id: Perkin-Elmer
@@ -115,6 +125,7 @@
   elevation: 1864.0
   diameter: 0.6
   robotic: false
+  fixed_location: true
   skycam_link: null
   weather_link: null
   =id: Boller & Chivens
@@ -126,6 +137,7 @@
   elevation: 1864.0
   diameter: 0.6
   robotic: false
+  fixed_location: true
   skycam_link: null
   weather_link: null
   =id: Zeiss Jena
@@ -137,6 +149,7 @@
   elevation: 1200.0
   diameter: 1.0
   robotic: false
+  fixed_location: true
   skycam_link: null
   weather_link: null
   =id: C2PU Omicron
@@ -148,6 +161,7 @@
   elevation: 1000.0
   diameter: 0.6
   robotic: false
+  fixed_location: true
   skycam_link: null
   weather_link: null
   =id: Makes-T60
@@ -159,6 +173,7 @@
   elevation: 2267.0
   diameter: 10.0
   robotic: false
+  fixed_location: true
   skycam_link: null
   weather_link: null
   =id: GTC
@@ -170,6 +185,7 @@
   elevation: 601.0
   diameter: 0.7
   robotic: false
+  fixed_location: true
   skycam_link: null
   weather_link: null
   =id: TRT-SBO
@@ -181,6 +197,7 @@
   elevation: 2267.0
   diameter: 0.7
   robotic: false
+  fixed_location: true
   skycam_link: null
   weather_link: null
   =id: TRT-SRO
@@ -192,6 +209,7 @@
   elevation: 1400.0
   diameter: 0.3
   robotic: true
+  fixed_location: true
   skycam_link: null
   weather_link: null
   =id: FRAM-Auger
@@ -203,6 +221,7 @@
   elevation: 2396.0
   diameter: 0.25
   robotic: true
+  fixed_location: true
   skycam_link: null
   weather_link: null
   =id: FRAM-CTA-N
@@ -214,6 +233,7 @@
   elevation: 0.0
   diameter: 1.0
   robotic: false
+  fixed_location: true
   skycam_link: null
   weather_link: null
   =id: SNOVA
@@ -225,6 +245,7 @@
   elevation: 1165.0
   diameter: 0.106
   robotic: false
+  fixed_location: true
   skycam_link: https://support.itelescope.net/support/solutions/articles/231911-telescope-8
   weather_link: null
   =id: iT8
@@ -236,6 +257,7 @@
   elevation: 2225.0
   diameter: 0.51
   robotic: false
+  fixed_location: true
   skycam_link: https://support.itelescope.net/support/solutions/articles/231903-telescope-11?utm_source=Telescopius&utm_medium=link&utm_campaign=TelescopeSimulator
   weather_link: null
   =id: iT11
@@ -247,6 +269,7 @@
   elevation: 1122.0
   diameter: 0.5
   robotic: false
+  fixed_location: true
   skycam_link: null
   weather_link: null
   =id: iT30
@@ -258,6 +281,7 @@
   elevation: 1122.0
   diameter: 0.43
   robotic: false
+  fixed_location: true
   skycam_link: null
   weather_link: null
   =id: iT17
@@ -269,6 +293,7 @@
   elevation: 2225.0
   diameter: 0.43
   robotic: false
+  fixed_location: true
   skycam_link: null
   weather_link: null
   =id: iT21
@@ -280,6 +305,7 @@
   elevation: 1122.0
   diameter: 0.5
   robotic: false
+  fixed_location: true
   skycam_link: null
   weather_link: null
   =id: iT31
@@ -291,6 +317,7 @@
   elevation: 1122.0
   diameter: 0.43
   robotic: false
+  fixed_location: true
   skycam_link: null
   weather_link: null
   =id: iT32
@@ -302,6 +329,7 @@
   elevation: 4168.7
   diameter: 0.5
   robotic: false
+  fixed_location: true
   skycam_link: null
   weather_link: null
   =id: ATLAS
@@ -313,6 +341,7 @@
   elevation: 2593.0
   diameter: 0.6
   robotic: false
+  fixed_location: true
   skycam_link: null
   weather_link: null
   =id: UBAI-ST-60
@@ -324,6 +353,7 @@
   elevation: 2593.0
   diameter: 0.6
   robotic: false
+  fixed_location: true
   skycam_link: null
   weather_link: https://app.weathercloud.net/d5359208089#current
   =id: UBAI-NT-60
@@ -335,6 +365,7 @@
   elevation: 420.0
   diameter: 0.5
   robotic: true
+  fixed_location: true
   skycam_link: null
   weather_link: null
   =id: VIRT
@@ -346,6 +377,7 @@
   elevation: 1870.0
   diameter: 1.2
   robotic: false
+  fixed_location: true
   skycam_link: http://bianca.palomar.caltech.edu/images/allsky/AllSkyCurrentImage.JPG
   weather_link: null
   =id: ZTF
@@ -357,6 +389,7 @@
   elevation: 1610.0
   diameter: 0.7
   robotic: false
+  fixed_location: true
   skycam_link: null
   weather_link: null
   =id: Abastumani-T70
@@ -368,6 +401,7 @@
   elevation: 950.0
   diameter: 2.16
   robotic: false
+  fixed_location: true
   skycam_link: null
   weather_link: null
   =id: Xinglong-2.16
@@ -379,6 +413,7 @@
   elevation: 3193.0
   diameter: 2.4
   robotic: false
+  fixed_location: true
   skycam_link: null
   weather_link: null
   =id: GMG-2.4
@@ -390,6 +425,7 @@
   elevation: 1605.0
   diameter: 0.48
   robotic: false
+  fixed_location: true
   skycam_link: null
   weather_link: null
   =id: Abastumani-T48
@@ -401,6 +437,7 @@
   elevation: 3193.0
   diameter: 0.7
   robotic: true
+  fixed_location: true
   skycam_link: null
   weather_link: null
   =id: TRT-GAO
@@ -412,6 +449,7 @@
   elevation: 0.0
   diameter: 1.0
   robotic: false
+  fixed_location: false
   skycam_link: null
   weather_link: null
   =id: Generic Telescope
@@ -423,6 +461,7 @@
   elevation: 2457.0
   diameter: 2.4
   robotic: false
+  fixed_location: true
   skycam_link: null
   weather_link: null
   =id: TNO
@@ -434,6 +473,7 @@
   elevation: 143.0
   diameter: 0.7
   robotic: false
+  fixed_location: true
   skycam_link: null
   weather_link: null
   =id: Lisnyky AZT-8
@@ -445,6 +485,7 @@
   elevation: 143.0
   diameter: 0.36
   robotic: false
+  fixed_location: true
   skycam_link: null
   weather_link: null
   =id: Lisnyky Schmidt
@@ -456,6 +497,7 @@
   elevation: 500.0
   diameter: 1.88
   robotic: false
+  fixed_location: true
   skycam_link: null
   weather_link: null
   =id: KAO
@@ -467,6 +509,7 @@
   elevation: 5100.0
   diameter: 0.5
   robotic: false
+  fixed_location: true
   skycam_link: null
   weather_link: null
   =id: BJP/ALi-50
@@ -478,6 +521,7 @@
   elevation: 3127.0
   diameter: 0.6
   robotic: false
+  fixed_location: true
   skycam_link: null
   weather_link: null
   =id: Zeiss-600
@@ -489,6 +533,7 @@
   elevation: 1500.0
   diameter: 0.6
   robotic: false
+  fixed_location: true
   skycam_link: null
   weather_link: null
   =id: ShAO-T60
@@ -500,6 +545,7 @@
   elevation: 39.0
   diameter: 0.5
   robotic: false
+  fixed_location: true
   skycam_link: null
   weather_link: null
   =id: OST-CDK
@@ -511,6 +557,7 @@
   elevation: 2593.0
   diameter: 1.5
   robotic: false
+  fixed_location: true
   skycam_link: null
   weather_link: null
   =id: UBAI/AZT-22
@@ -522,6 +569,7 @@
   elevation: 2877.0
   diameter: 1.0
   robotic: false
+  fixed_location: true
   skycam_link: null
   weather_link: null
   =id: T1M
@@ -533,6 +581,7 @@
   elevation: 650.0
   diameter: 1.2
   robotic: true
+  fixed_location: true
   skycam_link: null
   weather_link: null
   =id: T120
@@ -544,6 +593,7 @@
   elevation: 650.0
   diameter: 0.5
   robotic: true
+  fixed_location: true
   skycam_link: null
   weather_link: null
   =id: IRIS
@@ -555,6 +605,7 @@
   elevation: 1954.0
   diameter: 0.8
   robotic: false
+  fixed_location: true
   skycam_link: null
   weather_link: null
   =id: OAJ-T80
@@ -566,6 +617,7 @@
   elevation: 2896.0
   diameter: 1.5
   robotic: false
+  fixed_location: true
   skycam_link: null
   weather_link: null
   =id: OSN-T150
@@ -577,6 +629,7 @@
   elevation: 2750.0
   diameter: 0.5
   robotic: true
+  fixed_location: true
   skycam_link: null
   weather_link: null
   =id: MOSS
@@ -588,6 +641,7 @@
   elevation: 2750.0
   diameter: 0.5
   robotic: true
+  fixed_location: true
   skycam_link: null
   weather_link: null
   =id: OWL
@@ -599,6 +653,7 @@
   elevation: 2750.0
   diameter: 0.318
   robotic: true
+  fixed_location: true
   skycam_link: null
   weather_link: null
   =id: HAO
@@ -610,6 +665,7 @@
   elevation: 2168.0
   diameter: 2.2
   robotic: false
+  fixed_location: true
   skycam_link: null
   weather_link: null
   =id: CAHA-CAFOS
@@ -621,6 +677,7 @@
   elevation: 2168.0
   diameter: 3.5
   robotic: false
+  fixed_location: true
   skycam_link: null
   weather_link: null
   =id: "CAHA-\u03A92000"
@@ -632,6 +689,7 @@
   elevation: 1864.0
   diameter: 0.6
   robotic: false
+  fixed_location: true
   skycam_link: null
   weather_link: null
   =id: OPD-60
@@ -643,6 +701,7 @@
   elevation: 1864.0
   diameter: 1.6
   robotic: true
+  fixed_location: true
   skycam_link: null
   weather_link: null
   =id: OPD-1.60m
@@ -654,6 +713,7 @@
   elevation: 2738.0
   diameter: 4.1
   robotic: false
+  fixed_location: true
   skycam_link: null
   weather_link: null
   =id: SOAR

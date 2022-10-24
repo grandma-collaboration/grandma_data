@@ -407,9 +407,9 @@
 
 - name: Generic Telescope
   nickname: Generic Telescope
-  lat: null
-  lon: null
-  elevation: null
+  lat: 0.0
+  lon: 0.0
+  elevation: 0.0
   diameter: 1.0
   robotic: false
   skycam_link: null

@@ -65,6 +65,9 @@ def test_validate_telescope_schema():
     Test that the yaml files are correctly formatted.
     """
     for telescope in telescopes:
+        for k,v in telescope.items():
+            if v == None:
+                telescope[k] = ""
         jsonschema.validate(telescope, telescope_schema)
 
 
@@ -73,4 +76,7 @@ def test_validate_instrument_schema():
     Test that the yaml files are correctly formatted.
     """
     for instrument in instruments:
+        for k,v in instrument.items():
+            if v == None:
+                instrument[k] = ""
         jsonschema.validate(instrument, instrument_schema)

@@ -1,7 +1,7 @@
 - name: Canada-France-Hawaii Telescope
   nickname: CFHT
   lat: 20.0195
-  lon: 155.672
+  lon: -155.672
   elevation: 4204.0
   diameter: 3.58
   robotic: false
@@ -10,8 +10,8 @@
   weather_link: null
   =id: CFHT
 
-- name: TAROT Calern
-  nickname: TCA
+- name: TAROT/TCA
+  nickname: TAROT/TCA
   lat: 43.75203
   lon: 6.92353
   elevation: 1320.0
@@ -20,10 +20,10 @@
   fixed_location: true
   skycam_link: null
   weather_link: null
-  =id: TCA
+  =id: TAROT/TCA
 
-- name: TAROT La Silla
-  nickname: TCH
+- name: TAROT/TCH
+  nickname: TAROT/TCH
   lat: -29.25992
   lon: -70.7326
   elevation: 2398.0
@@ -32,10 +32,10 @@
   fixed_location: true
   skycam_link: null
   weather_link: null
-  =id: TCH
+  =id: TAROT/TCH
 
-- name: TAROT Reunion
-  nickname: TRE
+- name: TAROT/TRE
+  nickname: TAROT/TRE
   lat: -21.19882
   lon: 55.41022
   elevation: 991.0
@@ -44,7 +44,7 @@
   fixed_location: true
   skycam_link: null
   weather_link: null
-  =id: TRE
+  =id: TAROT/TRE
 
 - name: Xinglong-TNT
   nickname: Xinglong-TNT
@@ -58,8 +58,8 @@
   weather_link: null
   =id: Xinglong-TNT
 
-- name: Zadko Telescope
-  nickname: ZADKO
+- name: Zadko
+  nickname: Zadko
   lat: -31.356
   lon: 115.7131
   elevation: 50.0
@@ -68,10 +68,10 @@
   fixed_location: true
   skycam_link: null
   weather_link: null
-  =id: ZADKO
+  =id: Zadko
 
-- name: Zeiss-2000
-  nickname: Zeiss-2000
+- name: Terskol/Zeiss-600
+  nickname: Terskol/Zeiss-600
   lat: 43.2742
   lon: 42.5017
   elevation: 3127.0
@@ -80,9 +80,9 @@
   fixed_location: true
   skycam_link: null
   weather_link: null
-  =id: Zeiss-2000
+  =id: Terskol/Zeiss-600
 
-- name: Carl Zeiss 600
+- name: Shao-T60
   nickname: Shao-T60
   lat: 40.76999692
   lon: 48.583997664
@@ -94,8 +94,8 @@
   weather_link: null
   =id: Shao-T60
 
-- name: Carl Zeiss 2000
-  nickname: Shao-2m
+- name: ShAO/T2m
+  nickname: ShAO/T2m
   lat: 40.76999692
   lon: 48.583997664
   elevation: 1500.0
@@ -104,10 +104,10 @@
   fixed_location: true
   skycam_link: null
   weather_link: null
-  =id: Shao-2m
+  =id: ShAO/T2m
 
-- name: Perkin-Elmer
-  nickname: Perkin-Elmer
+- name: OPD/60cm
+  nickname: OPD/60cm
   lat: -22.5349
   lon: -45.5832
   elevation: 1864.0
@@ -116,34 +116,22 @@
   fixed_location: true
   skycam_link: null
   weather_link: null
-  =id: Perkin-Elmer
+  =id: OPD/60cm
 
-- name: Boller & Chivens
-  nickname: Boller & Chivens
+- name: OPD/1.6m
+  nickname: OPD/1.6m
   lat: -22.5349
   lon: -45.5832
   elevation: 1864.0
-  diameter: 0.6
+  diameter: 1.6
   robotic: false
   fixed_location: true
   skycam_link: null
   weather_link: null
-  =id: Boller & Chivens
-
-- name: Zeiss Jena
-  nickname: Zeiss Jena
-  lat: -22.5349
-  lon: -45.5832
-  elevation: 1864.0
-  diameter: 0.6
-  robotic: false
-  fixed_location: true
-  skycam_link: null
-  weather_link: null
-  =id: Zeiss Jena
-
-- name: C2PU Omicron
-  nickname: C2PU Omicron
+  =id: OPD/1.6m
+  
+- name: C2PU/Omicron
+  nickname: C2PU/Omicron
   lat: 43.753702
   lon: 6.922978
   elevation: 1200.0
@@ -152,10 +140,10 @@
   fixed_location: true
   skycam_link: null
   weather_link: null
-  =id: C2PU Omicron
+  =id: C2PU/Omicron
 
-- name: Les Makes-T60
-  nickname: Makes-T60
+- name: Les-Makes/T60
+  nickname: Les-Makes/T60
   lat: -21.1997
   lon: 55.409
   elevation: 1000.0
@@ -164,7 +152,7 @@
   fixed_location: true
   skycam_link: null
   weather_link: null
-  =id: Makes-T60
+  =id: Les-Makes/T60
 
 - name: Gran Telescopio Canarias
   nickname: GTC
@@ -178,7 +166,7 @@
   weather_link: null
   =id: GTC
 
-- name: Thai Robotic Telescope - Springbrook Observatory
+- name: Thai Robotic Telescope - SBO
   nickname: TRT-SBO
   lat: -31.28198
   lon: 149.082341
@@ -190,7 +178,7 @@
   weather_link: null
   =id: TRT-SBO
 
-- name: Thai Robotic Telescope - Sierra Remote Observatory
+- name: Thai Robotic Telescope - SRO
   nickname: TRT-SRO
   lat: 37.070278
   lon: -119.413056
@@ -202,7 +190,7 @@
   weather_link: null
   =id: TRT-SRO
 
-- name: F/(Ph)otometric Robotic Atmospheric Monitor - Auger
+- name: FRAM-Auger
   nickname: FRAM-Auger
   lat: -35.48084
   lon: -69.57052
@@ -214,7 +202,7 @@
   weather_link: null
   =id: FRAM-Auger
 
-- name: F/(Ph)otometric Robotic Atmospheric Monitor - CTA-N
+- name: FRAM-CTA-N
   nickname: FRAM-CTA-N
   lat: 28.763611
   lon: -17.894722
@@ -228,9 +216,9 @@
 
 - name: SNOVA
   nickname: SNOVA
-  lat: 0.0
-  lon: 0.0
-  elevation: 0.0
+  lat: 43.78
+  lon: 87.28
+  elevation: 2080.
   diameter: 1.0
   robotic: false
   fixed_location: true
@@ -238,7 +226,7 @@
   weather_link: null
   =id: SNOVA
 
-- name: T8 iTelescope
+- name: iT8
   nickname: iT8
   lat: -31.2719
   lon: 149.0617
@@ -250,7 +238,7 @@
   weather_link: null
   =id: iT8
 
-- name: T11 iTelescope
+- name: iT11
   nickname: iT11
   lat: 32.9
   lon: -105.5
@@ -262,7 +250,7 @@
   weather_link: null
   =id: iT11
 
-- name: T30 iTelescope
+- name: iT30
   nickname: iT30
   lat: -31.2733
   lon: 149.0644
@@ -274,7 +262,7 @@
   weather_link: null
   =id: iT30
 
-- name: T17 iTelescope
+- name: iT17
   nickname: iT17
   lat: -31.273
   lon: 149.0644
@@ -286,7 +274,7 @@
   weather_link: null
   =id: iT17
 
-- name: T21 iTelescope
+- name: iT21
   nickname: iT21
   lat: 32.9
   lon: -105.5
@@ -298,7 +286,7 @@
   weather_link: null
   =id: iT21
 
-- name: T31 iTelescope
+- name: iT31
   nickname: iT31
   lat: -31.273
   lon: 149.0644
@@ -310,7 +298,7 @@
   weather_link: null
   =id: iT31
 
-- name: T32 iTelescope
+- name: iT32
   nickname: iT32
   lat: -31.273
   lon: 149.0644
@@ -322,7 +310,7 @@
   weather_link: null
   =id: iT32
 
-- name: Asteroid Terrestrial-impact Last Alert System
+- name: ATLAS - Asteroid Terrestrial-impact Last Alert System 
   nickname: ATLAS
   lat: 19.5361
   lon: -155.5761
@@ -334,8 +322,8 @@
   weather_link: null
   =id: ATLAS
 
-- name: UBAI-ST-60
-  nickname: UBAI-ST-60
+- name: UBAI/ST-60 
+  nickname: UBAI/ST-60
   lat: 38.67
   lon: 66.9
   elevation: 2593.0
@@ -344,10 +332,10 @@
   fixed_location: true
   skycam_link: null
   weather_link: null
-  =id: UBAI-ST-60
+  =id: UBAI/ST-60
 
-- name: UBAI-NT-60
-  nickname: UBAI-NT-60
+- name: UBAI/NT-60
+  nickname: UBAI/NT-60
   lat: 38.67
   lon: 66.903867
   elevation: 2593.0
@@ -356,7 +344,7 @@
   fixed_location: true
   skycam_link: null
   weather_link: https://app.weathercloud.net/d5359208089#current
-  =id: UBAI-NT-60
+  =id: UBAI/NT-60
 
 - name: VIRT
   nickname: VIRT
@@ -382,8 +370,8 @@
   weather_link: null
   =id: ZTF
 
-- name: Abastumani-T70
-  nickname: Abastumani-T70
+- name: AbAO-T70
+  nickname: AbAO-T70
   lat: 41.754167
   lon: 42.819444
   elevation: 1610.0
@@ -392,10 +380,10 @@
   fixed_location: true
   skycam_link: null
   weather_link: null
-  =id: Abastumani-T70
+  =id: AbAO-T70
 
-- name: Xinglong-2.16
-  nickname: Xinglong-2.16
+- name: Xinglong-2.16m
+  nickname: Xinglong-2.16m
   lat: 40.394167
   lon: 117.575
   elevation: 950.0
@@ -404,22 +392,22 @@
   fixed_location: true
   skycam_link: null
   weather_link: null
-  =id: Xinglong-2.16
+  =id: Xinglong-2.16m
 
-- name: GMG-2.4
-  nickname: GMG-2.4
+- name: GMG-2.4m
+  nickname: GMG-2.4m
   lat: 26.708889
   lon: 100.030833
-  elevation: 3193.0
+  elevation: 2014
   diameter: 2.4
   robotic: false
   fixed_location: true
   skycam_link: null
   weather_link: null
-  =id: GMG-2.4
+  =id: GMG-2.4m
 
-- name: Abastumani-T48
-  nickname: Abastumani-T48
+- name: AbAO-T48
+  nickname: AbAO-T48
   lat: 41.754167
   lon: 42.819444
   elevation: 1605.0
@@ -428,9 +416,9 @@
   fixed_location: true
   skycam_link: null
   weather_link: null
-  =id: Abastumani-T48
+  =id: AbAO
 
-- name: Thai Robotic Telescope - Gao Mei Gu
+- name: Thai Robotic Telescope - GAO
   nickname: TRT-GAO
   lat: 26.6955
   lon: 100.031
@@ -466,8 +454,8 @@
   weather_link: null
   =id: TNO
 
-- name: Lisnyky AZT-8
-  nickname: Lisnyky AZT-8
+- name: Lisnyky/AZT-8
+  nickname: Lisnyky/AZT-8
   lat: 50.297817
   lon: 30.524632
   elevation: 143.0
@@ -476,10 +464,10 @@
   fixed_location: true
   skycam_link: null
   weather_link: null
-  =id: Lisnyky AZT-8
+  =id: Lisnyky/AZT-8
 
-- name: Lisnyky Schmidt
-  nickname: Lisnyky Schmidt
+- name: Lisnyky/Schmidt
+  nickname: Lisnyky/Schmidt
   lat: 50.297932
   lon: 30.524173
   elevation: 143.0
@@ -488,7 +476,7 @@
   fixed_location: true
   skycam_link: null
   weather_link: null
-  =id: Lisnyky Schmidt
+  =id: Lisnyky/Schmidt
 
 - name: KAO
   nickname: KAO
@@ -502,7 +490,7 @@
   weather_link: null
   =id: KAO
 
-- name: BJP-ALi-50
+- name: BJP/ALi-50
   nickname: BJP/ALi-50
   lat: 32.316667
   lon: 80.016667
@@ -513,30 +501,6 @@
   skycam_link: null
   weather_link: null
   =id: BJP/ALi-50
-
-- name: Terskol/Zeiss-600
-  nickname: Zeiss-600
-  lat: 43.2742
-  lon: 42.5017
-  elevation: 3127.0
-  diameter: 0.6
-  robotic: false
-  fixed_location: true
-  skycam_link: null
-  weather_link: null
-  =id: Zeiss-600
-
-- name: ShAO-T60
-  nickname: ShAO-T60
-  lat: 40.772222
-  lon: 48.584722
-  elevation: 1500.0
-  diameter: 0.6
-  robotic: false
-  fixed_location: true
-  skycam_link: null
-  weather_link: null
-  =id: ShAO-T60
 
 - name: OST-CDK
   nickname: OST-CDK
@@ -551,7 +515,7 @@
   =id: OST-CDK
 
 - name: UBAI-AZT-22
-  nickname: UBAI/AZT-22
+  nickname: UBAI-AZT-22
   lat: 38.672778
   lon: 66.896389
   elevation: 2593.0
@@ -560,10 +524,10 @@
   fixed_location: true
   skycam_link: null
   weather_link: null
-  =id: UBAI/AZT-22
+  =id: UBAI-AZT-22
 
-- name: Pic du Midi T1M
-  nickname: T1M
+- name: PicduMidi/T1M
+  nickname: PicduMidi/T1M
   lat: 42.9369
   lon: 0.1411
   elevation: 2877.0
@@ -572,10 +536,10 @@
   fixed_location: true
   skycam_link: null
   weather_link: null
-  =id: T1M
+  =id: PicduMidi/T1M
 
-- name: OHP-T120
-  nickname: T120
+- name: OHP/T120
+  nickname: OHP/T120
   lat: 43.932348
   lon: 5.713301
   elevation: 650.0
@@ -584,9 +548,9 @@
   fixed_location: true
   skycam_link: null
   weather_link: null
-  =id: T120
+  =id: OHP/T120
 
-- name: OHP-IRIS
+- name: OHP/IRIS
   nickname: IRIS
   lat: 43.932348
   lon: 5.713301
@@ -598,8 +562,8 @@
   weather_link: null
   =id: IRIS
 
-- name: OAJ-T80
-  nickname: OAJ-T80
+- name: OAJ/T80
+  nickname: OAJ/T80
   lat: 40.041942
   lon: -1.016165
   elevation: 1954.0
@@ -608,10 +572,10 @@
   fixed_location: true
   skycam_link: null
   weather_link: null
-  =id: OAJ-T80
+  =id: OAJ/T80
 
-- name: OSN-T150
-  nickname: OSN-T150
+- name: OSN/T150
+  nickname: OSN/T150
   lat: 37.064167
   lon: -3.384722
   elevation: 2896.0
@@ -620,7 +584,7 @@
   fixed_location: true
   skycam_link: null
   weather_link: null
-  =id: OSN-T150
+  =id: OSN/T150
 
 - name: MOSS
   nickname: MOSS
@@ -658,7 +622,7 @@
   weather_link: null
   =id: HAO
 
-- name: 2.2m CAHA-CAFOS
+- name: CAHA-CAFOS
   nickname: CAHA-CAFOS
   lat: 37.2208
   lon: -2.5468
@@ -670,8 +634,8 @@
   weather_link: null
   =id: CAHA-CAFOS
 
-- name: "3.5m CAHA-\u03A92000"
-  nickname: "CAHA-\u03A92000"
+- name: CAHA-3.5m
+  nickname: CAHA-3.5m
   lat: 37.2208
   lon: -2.5468
   elevation: 2168.0
@@ -680,33 +644,9 @@
   fixed_location: true
   skycam_link: null
   weather_link: null
-  =id: "CAHA-\u03A92000"
+  =id: CAHA-3.5m
 
-- name: OPD-60
-  nickname: OPD-60
-  lat: -22.5344
-  lon: -45.5825
-  elevation: 1864.0
-  diameter: 0.6
-  robotic: false
-  fixed_location: true
-  skycam_link: null
-  weather_link: null
-  =id: OPD-60
-
-- name: OPD-1.60m
-  nickname: OPD-1.60m
-  lat: -22.5344
-  lon: -45.5825
-  elevation: 1864.0
-  diameter: 1.6
-  robotic: true
-  fixed_location: true
-  skycam_link: null
-  weather_link: null
-  =id: OPD-1.60m
-
-- name: SOAR-Spartan
+- name: SOAR/Spartan
   nickname: SOAR
   lat: -30.2379
   lon: -70.7337

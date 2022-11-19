@@ -50,7 +50,8 @@
   type: imager
   band: Optical
   telescope_id: =iT8
-  filters: ps1::open
+  filters:
+  - ps1::open
   =id: iT8-Microline16803_Instrument
 
 #groupeKNC
@@ -402,7 +403,7 @@
   =id: Xinglong-TNT_Instrument
 
 - name: GMG-2.4m
-  type: imaging
+  type: imager
   band: optical
   telescope_id: =GMG-2.4m
   filters:

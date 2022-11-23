@@ -5,35 +5,35 @@
   filters:
   - ztfr
   - ztfg
-  =id: CFH12k
+  =id: CFH12k_Instrument
 
-- name: OMR Low Resolution Spectrograph
+- name: BFOSC
   type: spectrograph
   band: optical
-  telescope_id: =Xinglong-2.16
+  telescope_id: =Xinglong-2.16m
   filters: []
-  =id: OMR Low Resolution Spectrograph
+  =id: BFOSC_Instrument
 
-- name: HRS
+- name: YFOSC
   type: spectrograph
   band: optical
-  telescope_id: =Xinglong-2.16
+  telescope_id: =GMG-2.4m
   filters: []
-  =id: HRS
+  =id: GMG-2.4m_Instrument
 
 - name: Spectrograph Canberra
   type: spectrograph
   band: optical
-  telescope_id: =Shao-2m
+  telescope_id: =ShAO/T2m
   filters: []
-  =id: Spectrograph Canberra
+  =id: Spectrograph_Canberra_Instrument
 
 - name: Spectrograph UAGS
   type: spectrograph
   band: optical
-  telescope_id: =Shao-2m
+  telescope_id: =ShAO/T2m
   filters: []
-  =id: Spectrograph UAGS
+  =id: Spectrograph_UAGS_Instrument
 
 - name: MMATest
   type: imager
@@ -43,25 +43,30 @@
   - ztfg
   - ztfi
   - ztfr
-  =id: MMATest
+  =id: MMATest_Instrument
 
-- name: FLI Microline 16803
+#groupeKNC
+- name: iT8-Microline16803
   type: imager
   band: Optical
   telescope_id: =iT8
-  filters: []
-  =id: FLI Microline 16803
+  filters:
+  - ps1::open
+  =id: iT8-Microline16803_Instrument
 
-- name: FLI Proline 16803
+#groupeKNC
+- name: iT32-Proline16803
   type: imager
   band: Optical
   telescope_id: =iT32
   filters:
   - bessellv
   - besselli
-  =id: FLI Proline 16803
+  - ps1::open
+  =id: iT32-Proline16803_Instrument
 
-- name: FLI ProLine PL11002M CCD camera
+#groupeKNC
+- name: iT11-PL11002M
   type: imager
   band: Optical
   telescope_id: =iT11
@@ -71,9 +76,11 @@
   - bessellr
   - besselli
   - bessellux
-  =id: FLI ProLine PL11002M CCD camera
+  - ps1::open
+  =id: iT11-PL11002M_Instrument
 
-- name: FLI-PL6303E  CCD camera
+#groupeKNC
+- name: iT21-PL6303E
   type: imager
   band: Optical
   telescope_id: =iT21
@@ -83,9 +90,10 @@
   - bessellr
   - besselli
   - bessellux
-  =id: FLI-PL6303E  CCD camera
-
-- name: FLI-PL09000  CCD camera
+  - ps1::open
+  =id: iT21-PL6303E_Instrument
+#groupeKNC
+- name: iT31-PL09000
   type: imager
   band: Optical
   telescope_id: =iT31
@@ -93,9 +101,10 @@
   - bessellv
   - bessellr
   - besselli
-  =id: FLI-PL09000  CCD camera
-
-- name: FLI-PL6303E
+  - ps1::open
+  =id: iT31-PL09000_Instrument
+#groupeKNC
+- name: iT30-PL6303E
   type: imager
   band: Optical
   telescope_id: =iT30
@@ -105,9 +114,10 @@
   - bessellr
   - besselli
   - bessellux
-  =id: FLI-PL6303E
-
-- name: 'FLI ProLine PL4710 '
+  - ps1::open
+  =id: iT30-PL6303E_Instrument
+#groupeKNC
+- name: iT17-PL4710
   type: imager
   band: Optical
   telescope_id: =iT17
@@ -121,7 +131,8 @@
   - bessellr
   - besselli
   - bessellux
-  =id: FLI ProLine PL4710
+  - ps1::open
+  =id: iT17-PL4710_Instrument
 
 - name: ATLAS
   type: imager
@@ -130,17 +141,18 @@
   filters:
   - atlaso
   - atlasc
-  =id: ATLAS
+  =id: ATLAS_Instrument
 
 - name: CFHT/MEGACAM
   type: imager
   band: ir
   telescope_id: =CFHT
   filters:
-  - 2massj
-  - 2massh
-  - 2massks
-  =id: CFHT/MEGACAM
+  - sdssg
+  - sdssr
+  - sdssi
+  - sdssz
+  =id: CFHT/MEGACAM_Instrument
 
 - name: CFHT/WIRCAM
   type: imager
@@ -150,26 +162,230 @@
   - 2massj
   - 2massh
   - 2massks
-  =id: CFHT/WIRCAM
+  =id: CFHT/WIRCAM_Instrument
 
-- name: Abastumani-T70
+- name: AbAO-T70
   type: imager
   band: optical
-  telescope_id: =Abastumani-T70
+  telescope_id: =AbAO-T70
   filters:
   - standard::b
   - standard::v
   - standard::r
   - standard::i
-  =id: Abastumani-T70
+  =id: AbAO-T70_Instrument
 
-- name: Xinglong-2.16
-  type: imaging spectrograph
+- name: Shao-T60
+  type: imager
   band: optical
-  telescope_id: =Xinglong-2.16
+  telescope_id: =Shao-T60
+  filters:
+  - standard::b
+  - standard::v
+  - standard::r
+  - standard::i
+  - bessellb
+  - bessellv
+  - bessellr
+  - besselli
+  - bessellux
+  - ps1::open
+  =id: Shao-T60_Instrument
+
+- name: Lisnyky/AZT-8
+  type: imager
+  band: optical
+  telescope_id: =Lisnyky/AZT-8
+  filters:
+  - bessellb
+  - bessellv
+  - bessellr
+  - besselli
+  - bessellux
+  - ps1::open
+  =id: Lisnyky/AZT-8_Instrument
+
+- name: Lisnyky/Schmidt
+  type: imager
+  band: optical
+  telescope_id: =Lisnyky/Schmidt
+  filters:
+  - bessellb
+  - bessellv
+  - bessellr
+  - besselli
+  - bessellux
+  - ps1::open
+  =id: Lisnyky/Schmidt_Instrument
+
+- name: OST-CDK
+  type: imager
+  band: optical
+  telescope_id: =OST-CDK
+  filters:
+  - bessellb
+  - bessellv
+  - bessellr
+  - besselli
+  - bessellux
+  - ps1::open
+  =id: OST-CDK_Instrument
+
+- name: KAO
+  type: imager
+  band: optical
+  telescope_id: =KAO
   filters:
   - sdssg
-  =id: Xinglong-2.16
+  - sdssr
+  - sdssi
+  - sdssz
+  - ps1::open
+  =id: KAO_Instrument
+
+- name: C2PU/Omicron
+  type: imager
+  band: optical
+  telescope_id: =C2PU/Omicron
+  filters:
+  - sdssg
+  - sdssr
+  - sdssi
+  - sdssz
+  - ps1::open
+  =id: C2PU/Omicron_Instrument
+
+- name: PicduMidi/T1M
+  type: imager
+  band: optical
+  telescope_id: =PicduMidi/T1M
+  filters:
+  - sdssg
+  - sdssr
+  - sdssi
+  - sdssz
+  - ps1::open
+  =id: PicduMidi/T1M_Instrument
+
+- name: IRIS
+  type: imager
+  band: optical
+  telescope_id: =OHP/IRIS
+  filters:
+  - sdssg
+  - sdssr
+  - sdssi
+  - sdssz
+  - ps1::open
+  =id: IRIS_Instrument
+
+- name: OAJ/T80
+  type: imager
+  band: optical
+  telescope_id: =OAJ/T80
+  filters:
+  - sdssr
+  - ps1::open
+  =id: OAJ/T80_Instrument
+
+- name: OSN/T150
+  type: imager
+  band: optical
+  telescope_id: =OSN/T150
+  filters:
+  - bessellb
+  - bessellv
+  - bessellr
+  - besselli
+  - bessellux
+  - ps1::open
+  =id: OSN/T150_Instrument
+
+- name: OWL
+  type: imager
+  band: optical
+  telescope_id: =OWL
+  filters:
+  - bessellb
+  - bessellv
+  - bessellr
+  - besselli
+  - bessellux
+  - ps1::open
+  =id: OWL_Instrument
+
+- name: MOSS
+  type: imager
+  band: optical
+  telescope_id: =MOSS
+  filters:
+  - ps1::open
+  =id: MOSS_Instrument
+
+- name: HAO
+  type: imager
+  band: optical
+  telescope_id: =HAO
+  filters:
+  - ps1::open
+  - bessellb
+  - bessellv
+  - bessellr
+  - besselli
+  =id: HAO_Instrument
+
+- name: OPD/60cm
+  type: imager
+  band: optical
+  telescope_id: =OPD/60cm
+  filters:
+  - ps1::open
+  - 2massj
+  - 2massh
+  =id: OPD/60cm_Instrument
+
+- name: OPD/1.6m
+  type: imager
+  band: optical
+  telescope_id: =OPD/1.6m
+  filters:
+  - ps1::open
+  - bessellb
+  - bessellv
+  - bessellr
+  - besselli
+  - bessellux
+  =id: OPD/1.6m_Instrument
+
+- name: SOAR/Spartan
+  type: imager
+  band: optical
+  telescope_id: =SOAR/Spartan
+  filters:
+  - ps1::open
+  - ps1::open
+  - 2massj
+  - 2massh
+  - sdssg
+  - sdssr
+  - sdssi
+  - sdssz
+  =id: SOAR/Spartan_Instrument
+
+- name: Xinglong-2.16m
+  type: imaging spectrograph
+  band: optical
+  telescope_id: =Xinglong-2.16m
+  filters:
+  - sdssg
+  - sdssr
+  - sdssi
+  - sdssz
+  - bessellb
+  - bessellv
+  - bessellr
+  - besselli
+  =id: Xinglong-2.16_Instrument
 
 - name: Xinglong-TNT
   type: imaging spectrograph
@@ -177,15 +393,29 @@
   telescope_id: =Xinglong-TNT
   filters:
   - sdssg
-  =id: Xinglong-TNT
+  - sdssr
+  - sdssi
+  - sdssz
+  - bessellb
+  - bessellv
+  - bessellr
+  - besselli
+  =id: Xinglong-TNT_Instrument
 
-- name: GMG-2.4
-  type: imaging spectrograph
+- name: GMG-2.4m
+  type: imager
   band: optical
-  telescope_id: =GMG-2.4
+  telescope_id: =GMG-2.4m
   filters:
   - sdssg
-  =id: GMG-2.4
+  - sdssr
+  - sdssi
+  - sdssz
+  - bessellb
+  - bessellv
+  - bessellr
+  - besselli
+  =id: GMG-2.4_Instrument
 
 - name: FRAM-Auger
   type: imager
@@ -195,7 +425,12 @@
   - bessellb
   - bessellv
   - bessellr
-  =id: FRAM-Auger
+  - sdssg
+  - sdssr
+  - sdssi
+  - sdssz
+  - ps1::open
+  =id: FRAM-Auger_Instrument
 
 - name: FRAM-CTA-N
   type: imager
@@ -206,7 +441,8 @@
   - bessellv
   - bessellr
   - sdssz
-  =id: FRAM-CTA-N
+  - ps1::open
+  =id: FRAM-CTA-N_Instrument
 
 - name: SNOVA
   type: imager
@@ -215,7 +451,10 @@
   filters:
   - bessellux
   - bessellb
-  =id: SNOVA
+  - bessellv
+  - bessellr
+  - ps1::open
+  =id: SNOVA_Instrument
 
 - name: GTC/OSIRIS
   type: imaging spectrograph
@@ -227,19 +466,22 @@
   - sdssr
   - sdssi
   - sdssz
-  =id: GTC/OSIRIS
+  =id: GTC/OSIRIS_Instrument
 
-- name: Abastumani-T48
+- name: AbAO-T48
   type: imager
   band: optical
-  telescope_id: =Abastumani-T48
+  telescope_id: =AbAO-T48
   filters:
   - standard::b
   - standard::v
   - standard::r
   - standard::i
   - standard::u
-  =id: Abastumani-T48
+  - bessellb
+  - bessellv
+  - bessellr
+  =id: AbAO-T48_Instrument
 
 - name: TRT-GAO
   type: imager
@@ -251,7 +493,7 @@
   - besselli
   - bessellb
   - bessellux
-  =id: TRT-GAO
+  =id: TRT-GAO_Instrument
 
 - name: TRT-SRO
   type: imager
@@ -263,7 +505,7 @@
   - bessellv
   - besselli
   - bessellb
-  =id: TRT-SRO
+  =id: TRT-SRO_Instrument
 
 - name: TRT-SBO
   type: imager
@@ -275,9 +517,9 @@
   - bessellr
   - bessellux
   - bessellv
-  =id: TRT-SBO
+  =id: TRT-SBO_Instrument
 
-- name: 2.2m CAHA/CAFOS
+- name: CAFOS
   type: imaging spectrograph
   band: optical
   telescope_id: =CAHA-CAFOS
@@ -290,42 +532,114 @@
   - bessellv
   - bessellr
   - besselli
-  =id: 2.2m CAHA/CAFOS
+  =id: CAHA/CAFOS_Instrument
 
 - name: TAROT/TRE
   type: imager
   band: optical
-  telescope_id: =TRE
+  telescope_id: =TAROT/TRE
   filters:
   - ps1::open
-  =id: TAROT/TRE
+  =id: TAROT/TRE_Instrument
 
 - name: TAROT/TCA
   type: imager
   band: optical
-  telescope_id: =TCA
+  telescope_id: =TAROT/TCA
   filters:
   - sdssg
   - sdssr
   - sdssi
   - ps1::open
-  =id: TAROT/TCA
+  =id: TAROT/TCA_Instrument
+
+- name: BJP/ALi-50
+  type: imager
+  band: optical
+  telescope_id: =BJP/ALi-50
+  filters:
+  - sdssg
+  - sdssr
+  - sdssi
+  - ps1::open
+  =id: BJP/ALi-50_Instrument
+
+- name: UBAI/NT-60
+  type: imager
+  band: optical
+  telescope_id: =UBAI/NT-60
+  filters:
+  - bessellb
+  - besselli
+  - bessellr
+  - bessellux
+  - bessellv
+  - ps1::open
+  =id: UBAI/NT-60_Instrument
+
+- name: UBAI/ST-60
+  type: imager
+  band: optical
+  telescope_id: =UBAI/ST-60
+  filters:
+  - bessellb
+  - besselli
+  - bessellr
+  - bessellux
+  - bessellv
+  - ps1::open
+  =id: UBAI/ST-60_Instrument
+
+- name: UBAI/AZT-22
+  type: imager
+  band: optical
+  telescope_id: =UBAI/AZT-22
+  filters:
+  - bessellb
+  - besselli
+  - bessellr
+  - bessellux
+  - bessellv
+  - ps1::open
+  =id: UBAI/AZT-22_Instrument
+
+- name: Les-Makes/T60
+  type: imager
+  band: optical
+  telescope_id: =Les-Makes/T60
+  filters:
+  - bessellr
+  - ps1::open
+  =id: Les-Makes/T60_Instrument
+
+- name: Terskol/Zeiss-600
+  type: imager
+  band: optical
+  telescope_id: =Terskol/Zeiss-600
+  filters:
+  - bessellb
+  - besselli
+  - bessellr
+  - bessellux
+  - bessellv
+  - ps1::open
+  =id: Terskol/Zeiss-600_Instrument
 
 - name: TAROT/TCH
   type: imager
   band: optical
-  telescope_id: =TCH
+  telescope_id: =TAROT/TCH
   filters:
   - sdssg
   - sdssr
   - sdssi
   - ps1::open
-  =id: TAROT/TCH
+  =id: TAROT/TCH_Instrument
 
 - name: Generic Instrument
   type: imager
   band: Optical
-  telescope_id: =Generic Telescope
+  telescope_id: =Generic_Telescope
   filters:
   - bessellb
   - besselli
@@ -342,4 +656,5 @@
   - standard::r
   - standard::u
   - standard::v
-  =id: Generic Instrument
+  - ps1::open
+  =id: Generic_Instrument

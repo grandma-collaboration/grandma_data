@@ -36,6 +36,32 @@ def test_unique_telescope_ids():
     assert len(ids) == len(set(ids))
 
 
+def test_unique_telescope_and_instrument_ids():
+    """
+    Test that the telescope and instrument ids are unique.
+    """
+    telescope_ids = [telescope["=id"] for telescope in telescopes]
+    instrument_ids = [instrument["=id"] for instrument in instruments]
+    ids = telescope_ids + instrument_ids
+    # print ids that are not unique
+    for id in ids:
+        if ids.count(id) > 1:
+            print("Id {} is not unique.".format(id))
+    assert len(ids) == len(set(ids))
+
+
+def test_unique_instrument_ids():
+    """
+    Test that the instrument ids are unique.
+    """
+    ids = [instrument["=id"] for instrument in instruments]
+    # print ids that are not unique
+    for id in ids:
+        if ids.count(id) > 1:
+            print("Instrument id {} is not unique.".format(id))
+    assert len(ids) == len(set(ids))
+
+
 def test_correct_telescope_ids_in_instruments():
     """
     Test that the telescope ids in the instruments.yaml file match the ids in the telescopes.yaml file.

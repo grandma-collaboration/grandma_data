@@ -80,7 +80,7 @@
   =id: iT11-PL11002M_Instrument
 
 #groupeKNC
-- name: iT21-PL6303E
+- name: iT21_83-PL6303E
   type: imager
   band: Optical
   telescope_id: =iT21

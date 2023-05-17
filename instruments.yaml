@@ -46,7 +46,7 @@
   =id: MMATest_Instrument
 
 #groupeKNC
-- name: iT8-Microline16803
+- name: iT8_15-Microline16803
   type: imager
   band: Optical
   telescope_id: =iT8
@@ -55,7 +55,7 @@
   =id: iT8-Microline16803_Instrument
 
 #groupeKNC
-- name: iT32-Proline16803
+- name: iT32_85-Proline16803
   type: imager
   band: Optical
   telescope_id: =iT32
@@ -66,7 +66,7 @@
   =id: iT32-Proline16803_Instrument
 
 #groupeKNC
-- name: iT11-PL11002M
+- name: iT11_53-PL11002M
   type: imager
   band: Optical
   telescope_id: =iT11
@@ -80,7 +80,7 @@
   =id: iT11-PL11002M_Instrument
 
 #groupeKNC
-- name: iT21-PL6303E
+- name: iT21_83-PL6303E
   type: imager
   band: Optical
   telescope_id: =iT21
@@ -93,7 +93,7 @@
   - ps1::open
   =id: iT21-PL6303E_Instrument
 #groupeKNC
-- name: iT31-PL09000
+- name: iT31_84-PL09000
   type: imager
   band: Optical
   telescope_id: =iT31
@@ -104,7 +104,7 @@
   - ps1::open
   =id: iT31-PL09000_Instrument
 #groupeKNC
-- name: iT30-PL6303E
+- name: iT30_54-PL6303E
   type: imager
   band: Optical
   telescope_id: =iT30
@@ -117,7 +117,7 @@
   - ps1::open
   =id: iT30-PL6303E_Instrument
 #groupeKNC
-- name: iT17-PL4710
+- name: iT17_69-PL4710
   type: imager
   band: Optical
   telescope_id: =iT17

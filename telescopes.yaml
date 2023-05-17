@@ -226,7 +226,7 @@
   weather_link: null
   =id: SNOVA
 
-- name: iT8
+- name: iT8_15
   nickname: iT8
   lat: -31.2719
   lon: 149.0617
@@ -238,7 +238,7 @@
   weather_link: null
   =id: iT8
 
-- name: iT11
+- name: iT11_53
   nickname: iT11
   lat: 32.9
   lon: -105.5
@@ -250,7 +250,7 @@
   weather_link: null
   =id: iT11
 
-- name: iT30
+- name: iT30_54
   nickname: iT30
   lat: -31.2733
   lon: 149.0644
@@ -262,7 +262,7 @@
   weather_link: null
   =id: iT30
 
-- name: iT17
+- name: iT17_69
   nickname: iT17
   lat: -31.273
   lon: 149.0644
@@ -286,7 +286,7 @@
   weather_link: null
   =id: iT21
 
-- name: iT31
+- name: iT31_84
   nickname: iT31
   lat: -31.273
   lon: 149.0644
@@ -298,7 +298,7 @@
   weather_link: null
   =id: iT31
 
-- name: iT32
+- name: iT32_85
   nickname: iT32
   lat: -31.273
   lon: 149.0644
